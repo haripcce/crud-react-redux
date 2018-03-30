@@ -3,3 +3,22 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.ui.form{
+width: 1127px;
+    margin-left: auto!important;
+    margin-right: auto!important;	
+}
+
+.ui.form label,h1{
+text-align: left;
+}
+
+.ui.form label,h1{
+text-align: left;
+}
+
+.ui.form .field{
+text-align: left;
+}
+
+
