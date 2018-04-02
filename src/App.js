@@ -4,7 +4,8 @@ import { NavLink, Switch,Route} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import GamesPage from './GamesPage';
-import GameForm from './GameForm';
+import GameFormPage from './GameFormPage';
+import GameCard from './GameCard';
 
 class App extends Component {
   render() {
@@ -20,7 +21,8 @@ class App extends Component {
        </div>
        
         <Switch>
-          <Route path="/games/new" component={GameForm} />
+          <Route path="/games/new" component={GameFormPage} />
+          <Route path="/game/:_id" component={GameFormPage} />
           <Route path="/games" component={GamesPage} />
         </Switch>
       </div>

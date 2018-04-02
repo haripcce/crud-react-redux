@@ -21,4 +21,11 @@ text-align: left;
 text-align: left;
 }
 
+#games-list{
+	width: 1127px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    text-align: left;
+}
+
 
